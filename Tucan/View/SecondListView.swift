@@ -94,8 +94,6 @@ class SecondListView: UIView {
                               width: self.bounds.size.width - 16,
                              height: self.bounds.size.width - 16 )
         
-
-        
         tucanTitleLabel.frame = CGRect(x: 8,
                                        y: tucanImage.frame.maxY + 16,
                                    width: self.bounds.size.width - 16,
@@ -105,7 +103,6 @@ class SecondListView: UIView {
                                  y: tucanTitleLabel.frame.maxY + 8,
                              width: self.bounds.size.width - 16,
                             height: 14)
-        
         
         tucanArticle.frame = CGRect(x: 8,
                                     y: tucanImage.frame.maxY + 25,
